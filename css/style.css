@@ -1,0 +1,1121 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero-background{
+    width: 100%;
+    height: 575px;
+    background: #DBF3ED;
+}
+
+.hero-block {
+    display: flex;
+    width: 359px;
+    height: 575px;
+    border-radius: 12px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-block__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 327px;
+    height: 338px;
+    box-sizing: border-box;
+}
+
+.hero-block__huge-text {
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.hero-block__small-text {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.hero-block__btn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-block__start-btn {
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    background: #0F8277;
+    color: white;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 327px;
+    height: 37px;
+    padding: 10px 12px;
+    justify-content: center;
+}
+
+.hero-block__learn-btn {
+    display: flex;
+    border: 2px solid #0F8277;
+    border-radius: 4px;
+    background: none;
+    color: #0F8277;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 327px;
+    height: 37px;
+    padding: 10px 12px;
+    justify-content: center;
+}
+
+.hero-block__img {
+    display: none;
+}
+
+.academic-training {
+    width: 359px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.head-of-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 359px;
+}
+
+.aquamarine-color-text {
+    color: #0F8277;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.main-section-text {
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.description-for-section {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.img-container {
+    width: 359px;
+    max-height: 480px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.education-img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 387px;
+    height: 278px;
+
+}
+
+.img__text-container {
+    height: 100%;
+    max-height: 180px;
+    padding: 24px 16px;
+}
+
+.logo-name {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-left: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.svg-text {
+    display: flex;
+    align-items: center;
+}
+
+.normal-text {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.small-aquamarine-color-text {
+    color: #0F8277;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-left: 12px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.courses {
+    width: 359px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.courses-img {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 514px;
+    height: 278px;
+
+}
+
+.courses .svg-text {
+    flex-direction: column;
+    gap: 12px;
+    align-items: unset;
+}
+
+.courses .logo-name {
+    margin: unset;
+}
+
+.courses .small-aquamarine-color-text {
+    margin: unset;
+}
+
+.more-text {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-topics {
+    width: 360px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.featured-topics__content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.category-content {
+    width: 168px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 8px;
+}
+
+.featured-topics .normal-text {
+    margin: unset;
+}
+
+.name-and-students {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.partners {
+    display: flex;
+    width: 100%;
+    height: 412px;
+    background: #DBF3ED;
+}
+
+.partners__content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 359px;
+    height: 284px;
+    margin: 64px auto;
+    text-align: center;
+}
+
+.partners-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.partners-logo li img {
+    object-fit: contain;
+}
+
+.partner1 {
+    width: 118px;
+    height: 42px;
+}
+
+.partner2 {
+    width: 82px;
+    height: 42px;
+}
+
+.partner3 {
+    width: 66px;
+    height: 42px;
+}
+
+.partner4 {
+    width: 33px;
+    height: 42px;
+}
+
+.partner5 {
+    width: 36px;
+    height: 42px;
+}
+
+.partner6 {
+    width: 75px;
+    height: 42px;
+}
+
+.partner7 {
+    width: 92px;
+    height: 42px;
+}
+
+.partner8 {
+    width: 91px;
+    height: 42px;
+}
+
+.business {
+    width: 359px;
+    height: 491px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.top-part {
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-sales-btn {
+    width: 359px;
+    height: 37px;
+    padding: 10px 12px;
+    background: #0F8277;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.business-block {
+    width: 359px;
+    height: 198px;
+    display: grid;
+    grid-template-columns: repeat(3, 116px);
+    grid-template-rows: repeat(3, 66px);
+    justify-items: center;
+}
+
+.business-block img {
+    width: 116px;
+    height: 66px;
+    padding: 10px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+.business-block :nth-child(2) {
+    border-right: 1px solid #BABABA;
+    border-left: 1px solid #BABABA;
+}
+
+.business-block :nth-child(4) {
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+
+.business-block :nth-child(6) {
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+
+.business-block :nth-child(8) {
+    border-right: 1px solid #BABABA;
+    border-left: 1px solid #BABABA;
+}
+
+.business-block :nth-child(5) {
+    border: 1px solid #BABABA;
+}
+
+.plan-background {
+    width: 100%;
+    height: 1758px;
+    background: #DBF3ED;
+    display: flex;
+    margin: 64px 0;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 359px;
+    height: 1614px;
+    margin: 64px auto 80px;
+    text-align: center;
+}
+
+.plan-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.one-training-program {
+    width: 295px;
+    height: 319px;
+    background: #FDFDFD;
+    padding: 32px;
+    border: 1px solid #0F8277;
+    border-radius: 24px;
+}
+
+.plan .hero-block__small-text {
+    font-weight: 700;
+}
+
+.price-of-card {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-started-btn {
+    color: white;
+    font-family: Cabin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    border: none;
+    background: #0F8277;
+    width: 295px;
+    height: 39px;
+    border-radius: 4px;
+}
+
+.plan-cards__top-part {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #0F8277;
+}
+
+.best-side-of-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 50px;
+    margin-top: 32px;
+    text-align: start;
+}
+
+.best-side-row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.e-tutoria-plus-plan {
+    width: 295px;
+    height: 475px;
+    background: #0F8277;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.e-tutoria-plus-plan .hero-block__small-text {
+    color: white;
+}
+
+.e-tutoria-plus-plan .small-text {
+    color: white;
+}
+
+.e-tutoria-plus-plan .main-section-text {
+    color: white;
+}
+
+.e-tutoria-plus-plan .get-started-btn {
+    border: 2px solid white;
+}
+
+.e-tutoria-plus-plan .plan-cards__top-part {
+    border-bottom: 1px solid white;
+}
+
+.e-tutoria-plus-annual-plan {
+    width: 295px;
+    height: 424px;
+    background: #FDFDFD;
+    padding: 32px;
+    border: 1px solid #0F8277;
+    border-radius: 24px;
+}
+
+.photo-students {
+    width: 359px;
+    height: 878px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.photo-students img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo {
+    display: none;
+}
+
+.mobile-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 116px;
+    gap: 24px;
+}
+
+.huge-photo1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.contact-background {
+    width: 100%;
+    height: 664px;
+    background: #DBF3ED;
+    display: flex;
+}
+
+.contact {
+    width: 359px;
+    height: 536px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact__top-part {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact input {
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid #0F8277;
+    border-radius: 4px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+.textarea-style{
+    width: 100%;
+    height: 104px;
+    padding: 12px;
+    border: 1px solid #0F8277;
+    border-radius: 4px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.send-btn{
+    color: white;
+    font-family: Cabin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    border: none;
+    background: #0F8277;
+    width: 359px;
+    height: 39px;
+    border-radius: 4px;
+}
+
+@media (min-width:768px) {
+    .hero-block {
+        width: 744px;
+        height: 484px;
+        justify-content: unset;
+        position: relative;
+    }
+
+    .hero-block__content {
+        margin-left: 64px;
+        width: 380px;
+        height: 277px;
+        z-index: 1;
+    }
+
+    .hero-block__btn {
+        flex-direction: row;
+        width: 250px;
+    }
+
+    .hero-block__start-btn {
+        width: 119px;
+    }
+
+    .hero-block__learn-btn {
+        width: 107px;
+    }
+
+    .hero-block__img {
+        display: block;
+        position: absolute;
+        top: 81px;
+        right: 25px;
+    }
+
+    .academic-training {
+        width: 744px;
+        gap: 40px;
+    }
+
+    .head-of-section {
+        width: 533px;
+    }
+
+    .education-img {
+        width: 322px;
+        height: 180px;
+        justify-content: flex-start;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .img-container {
+        width: 232px;
+        height: 370px;
+    }
+
+    .img__text-container {
+        width: 232px;
+        max-height: 190px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .normal-text {
+        margin-bottom: unset;
+    }
+
+    .courses {
+        width: 744px;
+        gap: 40px;
+    }
+
+    .courses-img {
+        width: 241px;
+        height: 160px;
+    }
+
+    .courses .img-container {
+        width: 168px;
+        height: 390px;
+    }
+
+    .courses .img__text-container {
+        width: 168px;
+        max-height: 230px;
+    }
+
+    .featured-topics {
+        width: 744px;
+        gap: 40px;
+    }
+
+    .category-content {
+        height: 256px;
+        gap: 32px;
+
+    }
+
+    .partners {
+        height: 282px;
+    }
+
+    .partners__content-container {
+        width: 690px;
+        height: 154px;
+        gap: 40px;
+    }
+
+    .partners-logo {
+        gap: unset;
+        justify-content: space-between;
+        height: 42px;
+    }
+
+    .business {
+        width: 744px;
+        height: 261px;
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .top-part {
+        width: 360px;
+    }
+
+    .contact-sales-btn {
+        width: 118px;
+    }
+
+    .business-block {
+        width: 348px;
+    }
+
+    .plan-background {
+        height: 922px;
+    }
+
+    .plan {
+        width: 744px;
+        height: 778px;
+        gap: 40px;
+    }
+
+    .plan-cards {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .one-training-program {
+        width: 232px;
+        height: 702px;
+        box-sizing: border-box;
+    }
+
+    .e-tutoria-plus-plan {
+        width: 232px;
+        height: 702px;
+        box-sizing: border-box;
+    }
+
+    .e-tutoria-plus-annual-plan {
+        width: 232px;
+        height: 702px;
+        box-sizing: border-box;
+    }
+
+    .plan-cards__top-part {
+        gap: 27px;
+        align-items: center;
+        height: 286px;
+    }
+
+    .get-started-btn {
+        width: 109px;
+    }
+
+    .photo-students {
+        width: 744px;
+        height: 471px;
+        gap: 40px;
+    }
+
+    .mobile-photo {
+        display: none;
+    }
+
+    .photo {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 116px;
+    }
+
+    .huge-photo1 {
+        grid-column: unset;
+        grid-row: unset;
+    }
+
+    .huge-photo2 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .contact{
+        width: 744px;
+        height: 498px;
+    }
+
+    .send-btn{
+        width: 168px;
+        height: 39px;
+    }
+
+    .contact-background{
+        height: 626px;
+    }
+}
+
+@media (min-width:1368px) {
+    .hero-block {
+        width: 1296px;
+        height: 602px;
+        justify-content: unset;
+        position: unset;
+    }
+
+    .hero-block__content {
+        margin-left: 110px;
+        width: 512px;
+        height: 248px;
+        z-index: unset;
+    }
+
+    .hero-block__btn {
+        flex-direction: row;
+        width: 271px;
+    }
+
+    .hero-block__start-btn {
+        width: 132px;
+    }
+
+    .hero-block__learn-btn {
+        width: 115px;
+    }
+
+    .hero-block__img {
+        display: block;
+        position: unset;
+        width: 562px;
+        height: 533px;
+        margin-left: 59px;
+        margin-top: 19px;
+    }
+
+    .hero-block__huge-text {
+        font-size: 56px;
+    }
+
+    .hero-block__small-text {
+        font-size: 22px;
+        width: 482px;
+    }
+
+    .academic-training {
+        width: 1296px;
+    }
+
+    .head-of-section {
+        width: 667px;
+    }
+
+    .aquamarine-color-text {
+        font-size: 20px;
+    }
+
+    .main-section-text {
+        font-size: 40px;
+    }
+
+    .description-for-section {
+        font-size: 20px;
+    }
+
+    .img-container {
+        width: 416px;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .img__text-container {
+        width: 416px;
+        height: 100%;
+        max-height: 210px;
+    }
+
+    .education-img {
+        width: 482px;
+        height: 270px;
+        justify-content: flex-start;
+    }
+
+    .courses {
+        width: 1296px;
+        gap: 40px;
+    }
+
+    .courses-img {
+        width: 406px;
+        height: 270px;
+    }
+
+    .courses .img-container {
+        width: 306px;
+        height: 480px;
+    }
+
+    .courses .img__text-container {
+        width: 306px;
+        max-height: 210px;
+    }
+
+    .featured-topics {
+        width: 1296px;
+    }
+
+    .category-content {
+        width: 306px;
+        height: 284px;
+    }
+
+    .partners {
+        height: 382px;
+    }
+
+    .partners__content-container {
+        width: 1296px;
+        height: 222px;
+        gap: 60px;
+    }
+
+    .partners .main-section-text {
+        width: 871px;
+        margin: 0 auto;
+    }
+
+    .partners-logo {
+        height: 66px;
+    }
+
+    .partner1 {
+        width: 178px;
+        height: 66px;
+    }
+
+    .partner2 {
+        width: 142px;
+        height: 66px;
+    }
+
+    .partner3 {
+        width: 126px;
+        height: 66px;
+    }
+
+    .partner4 {
+        width: 64px;
+        height: 66px;
+    }
+
+    .partner5 {
+        width: 99px;
+        height: 66px;
+    }
+
+    .partner6 {
+        width: 136px;
+        height: 66px;
+    }
+
+    .partner7 {
+        width: 152px;
+        height: 66px;
+    }
+
+    .partner8 {
+        width: 152px;
+        height: 66px;
+    }
+
+    .business {
+        width: 1296px;
+        height: 412px;
+        gap: 72px;
+    }
+
+    .top-part {
+        width: 636px;
+        height: 277px;
+    }
+
+    .contact-sales-btn {
+        width: 131px;
+        height: 39px;
+        font-size: 16px;
+    }
+
+    .business-block {
+        width: 588px;
+        height: 412px;
+        grid-template-columns: repeat(3, 196px);
+        grid-template-rows: repeat(3, 136px);
+    }
+
+    .business-block img {
+        width: 196px;
+        height: 136px;
+        object-fit: none;
+    }
+
+    .plan-background {
+        height: 966px;
+    }
+
+    .plan {
+        width: 1296px;
+        height: 786px;
+    }
+
+    .one-training-program {
+        width: 416px;
+        height: 698px;
+        padding: 56px;
+    }
+
+    .e-tutoria-plus-plan {
+        width: 416px;
+        height: 698px;
+        padding: 56px;
+    }
+
+    .e-tutoria-plus-annual-plan {
+        width: 416px;
+        height: 698px;
+        padding: 56px;
+    }
+
+    .get-started-btn {
+        width: 119px;
+        height: 42px;
+    }
+
+    .plan-cards__top-part {
+        padding-bottom: 48px;
+    }
+
+    .best-side-of-plan {
+        margin-top: 48px;
+    }
+
+    .photo-students {
+        width: 1296px;
+        height: 767px;
+        margin: 80px auto 100px;
+    }
+
+    .photo {
+        grid-auto-rows: 210px;
+    }
+
+    .contact{
+        width: 856px;
+        height: 542px;
+        margin: 80px auto;
+    }
+
+    .send-btn{
+        width: 196px;
+        height: 42px;
+    }
+
+    .contact-background{
+        height: 702px;
+    }
+}

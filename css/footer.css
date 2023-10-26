@@ -1,0 +1,109 @@
+.footer-background{
+    background: #F1F1F1;
+    height: 229px;
+}
+
+.footer {
+    height: 229px;
+    padding: 32px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 1368px;
+    width: 100%;
+    margin:0px auto;
+
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.right-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.small-text {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .footer-background{
+        background: #F1F1F1;
+        height: 157px;
+    }
+
+    .footer{
+        padding: 32px 12px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 157px;
+        text-align: unset;
+    }
+
+    .left-text{
+        width: 306px;
+        height: 93px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .right-text{
+        width: 306px;
+        align-items: flex-end;
+        height: 93px;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1368px){
+    .footer-background{
+        background: #F1F1F1;
+        height: 239px;
+    }
+
+    .footer{
+        padding: 64px 36px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 239px;
+    }
+
+    .left-text{
+        width: 306px;
+        height: 111px;
+        align-items: flex-start;
+    }
+
+    .right-text{
+        width: 306px;
+        align-items: flex-end;
+        height: 111px;
+        justify-content: space-between;
+    }
+
+    .small-text{
+        font-size: 16px;
+    }
+
+    .e-tutoria{
+        font-size: 32px;
+    }
+}
